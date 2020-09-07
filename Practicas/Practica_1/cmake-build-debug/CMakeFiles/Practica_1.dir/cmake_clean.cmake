@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Practica_1.dir/main.cpp.o"
+  "CMakeFiles/Practica_1.dir/recursion.cpp.o"
   "Practica_1.exe"
   "Practica_1.pdb"
   "libPractica_1.dll.a"

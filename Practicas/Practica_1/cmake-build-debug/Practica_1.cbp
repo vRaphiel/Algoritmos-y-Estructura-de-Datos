@@ -83,6 +83,12 @@
 		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_1/main.cpp">
 			<Option target="Practica_1"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_1/recursion.cpp">
+			<Option target="Practica_1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_1/recursion.h">
+			<Option target="Practica_1"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

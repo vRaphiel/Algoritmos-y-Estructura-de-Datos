@@ -170,6 +170,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica_1.dir/build.make CMakeFiles/Practica_1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+recursion.o: recursion.cpp.o
+
+.PHONY : recursion.o
+
+# target to build an object file
+recursion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica_1.dir/build.make CMakeFiles/Practica_1.dir/recursion.cpp.o
+.PHONY : recursion.cpp.o
+
+recursion.i: recursion.cpp.i
+
+.PHONY : recursion.i
+
+# target to preprocess a source file
+recursion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica_1.dir/build.make CMakeFiles/Practica_1.dir/recursion.cpp.i
+.PHONY : recursion.cpp.i
+
+recursion.s: recursion.cpp.s
+
+.PHONY : recursion.s
+
+# target to generate assembly for a file
+recursion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Practica_1.dir/build.make CMakeFiles/Practica_1.dir/recursion.cpp.s
+.PHONY : recursion.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +209,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... recursion.o"
+	@echo "... recursion.i"
+	@echo "... recursion.s"
 .PHONY : help
 
 

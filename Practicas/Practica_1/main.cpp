@@ -1,5 +1,9 @@
 #include <iostream>
+#include "recursion.h"
 
+using namespace std;
+
+/*
 int f (int x, int y){
     if(x>y){
         return x+y;
@@ -8,7 +12,6 @@ int f (int x, int y){
     }
 }
 
-/*
 int menorDivisorDesde (int n, int k){
     if(n==k){
         return n;
@@ -30,7 +33,6 @@ bool esPrimo(int x){
         return false;
     }
 }
-*/
 
 bool testPrimalidad(int x, int aux){
     if(x==aux){
@@ -44,58 +46,34 @@ bool testPrimalidad(int x, int aux){
     }
 }
 
-int fibonacciSucession(int n){
-    if(n==0){
-        return 0;
-    }else if(n==1){
-        return 1;
-    }else{
-        return (fibonacciSucession(n-1) + fibonacciSucession(n-2));
-    }
-}
-
-int whileFibonacciSucession(int n){
-
-    int sumaTotal = 0;
-    int terminoCero = 0;
-    int terminoUno = 1;
-    int terminoPrevio = 0;
-    int terminoPrevioPrevio = 0;
-
-    if(n>2) {
-
-        int aux = 0;
-        while (aux < n) {
-            if (aux >= 2) {
-
-            }
-        }
-        sumaTotal = terminoPrevio + terminoPrevioPrevio;
-        return sumaTotal;
-    }else{
-        if(n==0){
-            return terminoCero;
-        }else{
-            return terminoUno;
-        }
-    }
-}
-
-int sumaImparesN(int n, int k, int suma){
-    if(k>n){
-        return suma;
-    }else{
-        if((k%2)!=0){
-            sumaImparesN(n, (k+1), (suma+k));
-        }else{
-            sumaImparesN(n, (k+1), suma);
-        }
-    }
-}
+*/
 
 int main() {
     //std::cout << "El resultado es: " << f(2, 10) << std::endl;
-    std::cout << "El resultado de la suma de impares es: " << sumaImparesN(10, 1, 0) << std::endl;
+    //std::cout << "El resultado de la suma de impares es: " << sumaImparesN(10, 1, 0) << std::endl;
+
+    //int number = 0;
+    //cout << "Ingrese un numero para empezar la logica";
+    //cin>>number;
+    //cout << "Suma hasta " << number << " es " << whileFibonacci(number) << endl;
+    //cout << "Suma hasta " << number << " es " << forFibonacci(number) << endl;
+    //cout << "Suma hasta " << number << " es " << sumaImparesWhileN(number) << endl;
+    //cout << "Suma hasta " << number << " es " << sumaImparesForN(number) << endl;
+    //cout << "Suma hasta " << number << " es " << sumaDivisores(number, 1, 0) << endl;
+    //cout << "Suma hasta " << number << " es " << sumaWhileDivisores(number) << endl;
+    //cout << "Suma hasta " << number << " es " << sumaForDivisores(number) << endl;
+    int techo, base;
+    cout << "Ingrese techo" << endl;
+    cin>> techo;
+
+    cout << "Factorial hasta " << factorial(techo) << endl;
+
+    cout << "Ingrese base" << endl;
+    cin>> base;
+
+    cout << "Factorial hasta " << factorial(base) << endl;
+
+    cout << "Combinatorio de: (" << techo << " : " << base << ") " << combinatorio(techo,base) << endl;
     return 0;
 }
 
