@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Practica07_Practica.dir/main.cpp.o  -o Practica07_Practica.exe -Wl,--out-implib,libPractica07_Practica.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

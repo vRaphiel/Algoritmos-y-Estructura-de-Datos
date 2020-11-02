@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Labo03_Vectores.dir/ejercicios.cpp.o CMakeFiles/Labo03_Vectores.dir/main.cpp.o  -o Labo03_Vectores.exe -Wl,--out-implib,libLabo03_Vectores.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/src/sopaDeLetras.cpp
+sopaDeLetras.h
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/src/sopaDeLetras.h
+
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/src/sopaDeLetras.h
+vector
+-
+

@@ -1,0 +1,26 @@
+        -:    0:Source:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/src/esPrimo.cpp
+        -:    0:Graph:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/cmake-build-debug/CMakeFiles/Labo-testing.dir/src/esPrimo.cpp.gcno
+        -:    0:Data:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/cmake-build-debug/CMakeFiles/Labo-testing.dir/src/esPrimo.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "esPrimo.h"
+        -:    2:
+    #####:    3:bool esPrimo(int n) {
+    #####:    4:	if (n < 2) {
+    %%%%%:    4-block  0
+    #####:    5:		return false;
+    %%%%%:    5-block  0
+        -:    6:	} else {
+    #####:    7:		for (int i = 2; i < n; i++) {
+    %%%%%:    7-block  0
+    %%%%%:    7-block  1
+    %%%%%:    7-block  2
+    #####:    8:			if (n % i == 0) {
+    %%%%%:    8-block  0
+    #####:    9:				return false;
+    %%%%%:    9-block  0
+        -:   10:			}
+        -:   11:		}
+    #####:   12:		return true;
+    %%%%%:   12-block  0
+        -:   13:	}
+        -:   14:}

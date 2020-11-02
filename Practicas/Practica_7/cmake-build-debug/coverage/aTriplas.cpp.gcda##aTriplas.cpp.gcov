@@ -1,0 +1,12 @@
+        -:    0:Source:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/src/aTriplas.cpp
+        -:    0:Graph:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/cmake-build-debug/CMakeFiles/Labo-testing.dir/src/aTriplas.cpp.gcno
+        -:    0:Data:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/cmake-build-debug/CMakeFiles/Labo-testing.dir/src/aTriplas.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "aTriplas.h"
+        -:    2:
+    #####:    3:tuple<tuple<int, int>, vector<tuple<int, int, int>>> aTriplas(vector<vector<int>> m){
+    #####:    4:    tuple<tuple<int, int>, vector<tuple<int, int, int>>> res;
+    %%%%%:    4-block  0
+    #####:    5:    return res;
+        -:    6:    // Borrar el return dummy y completar
+        -:    7:}

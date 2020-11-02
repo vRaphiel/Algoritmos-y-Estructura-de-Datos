@@ -1,0 +1,21 @@
+        -:    0:Source:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/src/filasQueSuman.cpp
+        -:    0:Graph:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/cmake-build-debug/CMakeFiles/Labo-testing.dir/src/filasQueSuman.cpp.gcno
+        -:    0:Data:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/cmake-build-debug/CMakeFiles/Labo-testing.dir/src/filasQueSuman.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "filasQueSuman.h"
+        -:    2:
+    #####:    3:vector<int> filasQueSumanN(vector<vector<int>> m, int n){
+    #####:    4:    vector<int> res;
+    %%%%%:    4-block  0
+    #####:    5:    return res;
+        -:    6:    // Borrar el return dummy y completar
+        -:    7:
+        -:    8:}
+        -:    9:
+    #####:   10:vector<int> filasDondeAlgunosSumanN(vector<vector<int>> m, int n){
+    #####:   11:    vector<int> res;
+    %%%%%:   11-block  0
+    #####:   12:    return res;
+        -:   13:    // Borrar el return dummy y completar
+        -:   14:
+        -:   15:}

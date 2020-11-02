@@ -64,6 +64,32 @@ int forFibonacci(int n){
     return result;
 }
 
+/* OTRO FIBBONACCI */
+int fibonacci_second(int n){
+
+    int actual = 0;
+    if(n==0){
+        // actual = 0;
+    }
+    else{
+        if(n==1){
+            actual=1;
+        }
+        else{
+            int anteriorDelAnterior=0;
+            int anterior=1;
+            while (n>=2){
+                actual = anterior + anteriorDelAnterior;
+                anteriorDelAnterior = anterior;
+                anterior = actual;
+                n--;
+            }
+        }
+    }
+
+    return actual;
+}
+
 /* SUMA IMPARES */
 int sumaImparesN(int n, int k, int suma){
     if(k>n){
@@ -149,5 +175,13 @@ int factorial(int n){
 }
 
 int combinatorio(int n, int k){
-    return 0;
+    if(n == k || n == 0){
+        return 1;
+    } else if(k == 1 || k == n - 1){
+        return n;
+    }else{
+        return (combinatorio(n-1, k))+(combinatorio(n-1, k-1));
+    }
 }
+
+// ES BASTANTE LA VERSION ITERATIVA

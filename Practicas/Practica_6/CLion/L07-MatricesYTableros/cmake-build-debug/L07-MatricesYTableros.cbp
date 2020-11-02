@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="L07-MatricesYTableros"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L07-MatricesYTableros">
+				<Option output="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/L07-MatricesYTableros.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 L07-MatricesYTableros"/>
+					<CompileFile command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L07-MatricesYTableros/fast">
+				<Option output="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/L07-MatricesYTableros.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 L07-MatricesYTableros/fast"/>
+					<CompileFile command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/lib/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/main.cpp">
+			<Option target="L07-MatricesYTableros"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/src/solucion.cpp">
+			<Option target="L07-MatricesYTableros"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/src/solucion.h">
+			<Option target="L07-MatricesYTableros"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/CLion/L07-MatricesYTableros/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

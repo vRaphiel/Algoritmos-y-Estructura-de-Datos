@@ -1,0 +1,142 @@
+        -:    0:Source:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/test/esPrimoTEST.cpp
+        -:    0:Graph:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/cmake-build-debug/CMakeFiles/Labo-testing.dir/test/esPrimoTEST.cpp.gcno
+        -:    0:Data:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/cmake-build-debug/CMakeFiles/Labo-testing.dir/test/esPrimoTEST.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "../src/esPrimo.h"
+        -:    2:#include "../lib/gtest.h"
+        -:    3:
+    #####:    4:TEST(EsPrimoTest, NumeroPrimo) {
+    #####:    5:    int n = 7;
+    #####:    6:    bool result = esPrimo(n);
+    #####:    7:    EXPECT_TRUE(result);
+    #####:    8:}
+------------------
+_ZN28EsPrimoTest_NumeroPrimo_Test8TestBodyEv:
+    #####:    4:TEST(EsPrimoTest, NumeroPrimo) {
+    #####:    5:    int n = 7;
+    #####:    6:    bool result = esPrimo(n);
+    %%%%%:    6-block  0
+    #####:    7:    EXPECT_TRUE(result);
+    %%%%%:    7-block  0
+    %%%%%:    7-block  1
+    %%%%%:    7-block  2
+    %%%%%:    7-block  3
+    %%%%%:    7-block  4
+    %%%%%:    7-block  5
+    %%%%%:    7-block  6
+    %%%%%:    7-block  7
+    $$$$$:    7-block  8
+    $$$$$:    7-block  9
+    $$$$$:    7-block 10
+    $$$$$:    7-block 11
+    $$$$$:    7-block 12
+    $$$$$:    7-block 13
+    $$$$$:    7-block 14
+    #####:    8:}
+------------------
+_ZN28EsPrimoTest_NumeroPrimo_TestC1Ev:
+    #####:    4:TEST(EsPrimoTest, NumeroPrimo) {
+    %%%%%:    4-block  0
+------------------
+        -:    9:
+    #####:   10:TEST(EsPrimoTest, NumeroCompuesto) {
+    #####:   11:    int n = 6;
+    #####:   12:    bool result = esPrimo(n);
+    #####:   13:    EXPECT_FALSE(result);
+    #####:   14:}
+------------------
+_ZN32EsPrimoTest_NumeroCompuesto_Test8TestBodyEv:
+    #####:   10:TEST(EsPrimoTest, NumeroCompuesto) {
+    #####:   11:    int n = 6;
+    #####:   12:    bool result = esPrimo(n);
+    %%%%%:   12-block  0
+    #####:   13:    EXPECT_FALSE(result);
+    %%%%%:   13-block  0
+    %%%%%:   13-block  1
+    %%%%%:   13-block  2
+    %%%%%:   13-block  3
+    %%%%%:   13-block  4
+    %%%%%:   13-block  5
+    %%%%%:   13-block  6
+    $$$$$:   13-block  7
+    $$$$$:   13-block  8
+    $$$$$:   13-block  9
+    $$$$$:   13-block 10
+    $$$$$:   13-block 11
+    $$$$$:   13-block 12
+    $$$$$:   13-block 13
+    $$$$$:   13-block 14
+    #####:   14:}
+------------------
+_ZN32EsPrimoTest_NumeroCompuesto_TestC1Ev:
+    #####:   10:TEST(EsPrimoTest, NumeroCompuesto) {
+    %%%%%:   10-block  0
+------------------
+        -:   15:
+    #####:   16:TEST(EsPrimoTest, CasoBorde) {
+    #####:   17:    int n = 2;
+    #####:   18:    bool result = esPrimo(n);
+    #####:   19:    EXPECT_TRUE(result);
+    #####:   20:}
+------------------
+_ZN26EsPrimoTest_CasoBorde_Test8TestBodyEv:
+    #####:   16:TEST(EsPrimoTest, CasoBorde) {
+    #####:   17:    int n = 2;
+    #####:   18:    bool result = esPrimo(n);
+    %%%%%:   18-block  0
+    #####:   19:    EXPECT_TRUE(result);
+    %%%%%:   19-block  0
+    %%%%%:   19-block  1
+    %%%%%:   19-block  2
+    %%%%%:   19-block  3
+    %%%%%:   19-block  4
+    %%%%%:   19-block  5
+    %%%%%:   19-block  6
+    %%%%%:   19-block  7
+    $$$$$:   19-block  8
+    $$$$$:   19-block  9
+    $$$$$:   19-block 10
+    $$$$$:   19-block 11
+    $$$$$:   19-block 12
+    $$$$$:   19-block 13
+    $$$$$:   19-block 14
+    #####:   20:}
+------------------
+_ZN26EsPrimoTest_CasoBorde_TestC1Ev:
+    #####:   16:TEST(EsPrimoTest, CasoBorde) {
+    %%%%%:   16-block  0
+------------------
+        -:   21:
+    #####:   22:TEST(EsPrimoTest, NumeroInferior) {
+    #####:   23:    int n = 1;
+    #####:   24:    bool result = esPrimo(n);
+    #####:   25:    EXPECT_FALSE(result);
+    #####:   26:}
+------------------
+_ZN31EsPrimoTest_NumeroInferior_Test8TestBodyEv:
+    #####:   22:TEST(EsPrimoTest, NumeroInferior) {
+    #####:   23:    int n = 1;
+    #####:   24:    bool result = esPrimo(n);
+    %%%%%:   24-block  0
+    #####:   25:    EXPECT_FALSE(result);
+    %%%%%:   25-block  0
+    %%%%%:   25-block  1
+    %%%%%:   25-block  2
+    %%%%%:   25-block  3
+    %%%%%:   25-block  4
+    %%%%%:   25-block  5
+    %%%%%:   25-block  6
+    $$$$$:   25-block  7
+    $$$$$:   25-block  8
+    $$$$$:   25-block  9
+    $$$$$:   25-block 10
+    $$$$$:   25-block 11
+    $$$$$:   25-block 12
+    $$$$$:   25-block 13
+    $$$$$:   25-block 14
+    #####:   26:}
+------------------
+_ZN31EsPrimoTest_NumeroInferior_TestC1Ev:
+    #####:   22:TEST(EsPrimoTest, NumeroInferior) {
+    %%%%%:   22-block  0
+------------------

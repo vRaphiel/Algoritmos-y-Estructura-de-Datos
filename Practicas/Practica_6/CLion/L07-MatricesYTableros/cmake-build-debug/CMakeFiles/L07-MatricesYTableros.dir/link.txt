@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -pthread -g  -Wl,--enable-auto-import -g --coverage CMakeFiles/L07-MatricesYTableros.dir/main.cpp.o CMakeFiles/L07-MatricesYTableros.dir/src/solucion.cpp.o  -o L07-MatricesYTableros.exe -Wl,--out-implib,libL07-MatricesYTableros.dll.a -Wl,--major-image-version,0,--minor-image-version,0  libgtest.a 

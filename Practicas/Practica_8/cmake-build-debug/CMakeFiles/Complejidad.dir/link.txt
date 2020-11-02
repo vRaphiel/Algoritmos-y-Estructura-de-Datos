@@ -1,0 +1,1 @@
+/usr/bin/c++.exe  -std=gnu++11 -ggdb3 -g  -Wno-deprecated-declarations -g  -Wl,--enable-auto-import CMakeFiles/Complejidad.dir/main.cpp.o CMakeFiles/Complejidad.dir/ejercicios.cpp.o  -o Complejidad.exe -Wl,--out-implib,libComplejidad.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

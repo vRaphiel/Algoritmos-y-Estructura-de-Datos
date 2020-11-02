@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/Terminal/L07-MatricesYTableros/src/solucion.cpp
+solucion.h
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/Terminal/L07-MatricesYTableros/src/solucion.h
+tuple
+-
+set
+-
+
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/Terminal/L07-MatricesYTableros/src/solucion.h
+vector
+-
+string
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_6/Terminal/L07-MatricesYTableros/src/string
+iostream
+-
+set
+-
+

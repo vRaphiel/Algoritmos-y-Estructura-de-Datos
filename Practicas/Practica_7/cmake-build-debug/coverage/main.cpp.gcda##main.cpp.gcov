@@ -1,0 +1,11 @@
+        -:    0:Source:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/main.cpp
+        -:    0:Graph:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/cmake-build-debug/CMakeFiles/Labo-testing.dir/main.cpp.gcno
+        -:    0:Data:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/cmake-build-debug/CMakeFiles/Labo-testing.dir/main.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "lib/gtest.h"
+        -:    2:
+        1:    3:int main(int argc, char **argv) {
+        1:    4:    ::testing::InitGoogleTest(&argc, argv);
+        1:    4-block  0
+        1:    5:    return RUN_ALL_TESTS();
+        -:    6:}

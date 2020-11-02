@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Labo05.dir/main.cpp.o  -o Labo05.exe -Wl,--out-implib,libLabo05.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

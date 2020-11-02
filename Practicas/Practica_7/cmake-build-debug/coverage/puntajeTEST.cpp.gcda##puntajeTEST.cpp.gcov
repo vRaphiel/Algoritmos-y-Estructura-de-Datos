@@ -1,0 +1,139 @@
+        -:    0:Source:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/test/puntajeTEST.cpp
+        -:    0:Graph:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/cmake-build-debug/CMakeFiles/Labo-testing.dir/test/puntajeTEST.cpp.gcno
+        -:    0:Data:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_7/cmake-build-debug/CMakeFiles/Labo-testing.dir/test/puntajeTEST.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "../src/puntaje.h"
+        -:    2:#include "../lib/gtest.h"
+        -:    3:
+        -:    4:// Escribir tests aca:
+        2:    5:TEST(puntajeTest, Caso1) {
+        1:    6:    int n = 9;
+       1*:    7:    EXPECT_TRUE(28 == puntaje(n));
+        1:    8:}
+------------------
+_ZN22puntajeTest_Caso1_Test8TestBodyEv:
+        1:    5:TEST(puntajeTest, Caso1) {
+        1:    6:    int n = 9;
+       1*:    7:    EXPECT_TRUE(28 == puntaje(n));
+        1:    7-block  0
+        1:    7-block  1
+        1:    7-block  2
+    %%%%%:    7-block  3
+    %%%%%:    7-block  4
+    %%%%%:    7-block  5
+    %%%%%:    7-block  6
+    %%%%%:    7-block  7
+        1:    7-block  8
+    $$$$$:    7-block  9
+    $$$$$:    7-block 10
+    $$$$$:    7-block 11
+    $$$$$:    7-block 12
+    $$$$$:    7-block 13
+    $$$$$:    7-block 14
+    $$$$$:    7-block 15
+    $$$$$:    7-block 16
+        1:    8:}
+------------------
+_ZN22puntajeTest_Caso1_TestC1Ev:
+        1:    5:TEST(puntajeTest, Caso1) {
+        1:    5-block  0
+------------------
+        -:    9:
+    #####:   10:TEST(puntajeTest, Caso2) {
+    #####:   11:    int n = 12;
+    #####:   12:    EXPECT_TRUE(34 == puntaje(n));
+    #####:   13:}
+------------------
+_ZN22puntajeTest_Caso2_Test8TestBodyEv:
+    #####:   10:TEST(puntajeTest, Caso2) {
+    #####:   11:    int n = 12;
+    #####:   12:    EXPECT_TRUE(34 == puntaje(n));
+    %%%%%:   12-block  0
+    %%%%%:   12-block  1
+    %%%%%:   12-block  2
+    %%%%%:   12-block  3
+    %%%%%:   12-block  4
+    %%%%%:   12-block  5
+    %%%%%:   12-block  6
+    %%%%%:   12-block  7
+    %%%%%:   12-block  8
+    $$$$$:   12-block  9
+    $$$$$:   12-block 10
+    $$$$$:   12-block 11
+    $$$$$:   12-block 12
+    $$$$$:   12-block 13
+    $$$$$:   12-block 14
+    $$$$$:   12-block 15
+    $$$$$:   12-block 16
+    #####:   13:}
+------------------
+_ZN22puntajeTest_Caso2_TestC1Ev:
+    #####:   10:TEST(puntajeTest, Caso2) {
+    %%%%%:   10-block  0
+------------------
+        -:   14:
+    #####:   15:TEST(puntajeTest, Caso3) {
+    #####:   16:    int n = 13;
+    #####:   17:    EXPECT_TRUE(3 == puntaje(n));
+    #####:   18:}
+------------------
+_ZN22puntajeTest_Caso3_Test8TestBodyEv:
+    #####:   15:TEST(puntajeTest, Caso3) {
+    #####:   16:    int n = 13;
+    #####:   17:    EXPECT_TRUE(3 == puntaje(n));
+    %%%%%:   17-block  0
+    %%%%%:   17-block  1
+    %%%%%:   17-block  2
+    %%%%%:   17-block  3
+    %%%%%:   17-block  4
+    %%%%%:   17-block  5
+    %%%%%:   17-block  6
+    %%%%%:   17-block  7
+    %%%%%:   17-block  8
+    $$$$$:   17-block  9
+    $$$$$:   17-block 10
+    $$$$$:   17-block 11
+    $$$$$:   17-block 12
+    $$$$$:   17-block 13
+    $$$$$:   17-block 14
+    $$$$$:   17-block 15
+    $$$$$:   17-block 16
+    #####:   18:}
+------------------
+_ZN22puntajeTest_Caso3_TestC1Ev:
+    #####:   15:TEST(puntajeTest, Caso3) {
+    %%%%%:   15-block  0
+------------------
+        -:   19:
+    #####:   20:TEST(puntajeTest, Caso4) {
+    #####:   21:    int n = 8;
+    #####:   22:    EXPECT_TRUE(6 == puntaje(n));
+    #####:   23:}
+------------------
+_ZN22puntajeTest_Caso4_Test8TestBodyEv:
+    #####:   20:TEST(puntajeTest, Caso4) {
+    #####:   21:    int n = 8;
+    #####:   22:    EXPECT_TRUE(6 == puntaje(n));
+    %%%%%:   22-block  0
+    %%%%%:   22-block  1
+    %%%%%:   22-block  2
+    %%%%%:   22-block  3
+    %%%%%:   22-block  4
+    %%%%%:   22-block  5
+    %%%%%:   22-block  6
+    %%%%%:   22-block  7
+    %%%%%:   22-block  8
+    $$$$$:   22-block  9
+    $$$$$:   22-block 10
+    $$$$$:   22-block 11
+    $$$$$:   22-block 12
+    $$$$$:   22-block 13
+    $$$$$:   22-block 14
+    $$$$$:   22-block 15
+    $$$$$:   22-block 16
+    #####:   23:}
+------------------
+_ZN22puntajeTest_Caso4_TestC1Ev:
+    #####:   20:TEST(puntajeTest, Caso4) {
+    %%%%%:   20-block  0
+------------------

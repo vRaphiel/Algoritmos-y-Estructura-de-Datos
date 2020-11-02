@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Trabajo Implementacion/auxiliares.h
+definiciones.h
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Trabajo Implementacion/definiciones.h
+
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Trabajo Implementacion/definiciones.h
+vector
+-
+cmath
+-
+algorithm
+-
+
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Trabajo Implementacion/ejercicios.cpp
+algorithm
+-
+ejercicios.h
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Trabajo Implementacion/ejercicios.h
+auxiliares.h
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Trabajo Implementacion/auxiliares.h
+iostream
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Trabajo Implementacion/iostream
+
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Trabajo Implementacion/ejercicios.h
+definiciones.h
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Trabajo Implementacion/definiciones.h
+
