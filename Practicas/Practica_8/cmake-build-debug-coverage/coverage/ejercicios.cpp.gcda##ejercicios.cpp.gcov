@@ -1,0 +1,189 @@
+        -:    0:Source:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_8/ejercicios.cpp
+        -:    0:Graph:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_8/cmake-build-debug-coverage/CMakeFiles/Complejidad.dir/ejercicios.cpp.gcno
+        -:    0:Data:/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_8/cmake-build-debug-coverage/CMakeFiles/Complejidad.dir/ejercicios.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "ejercicios.h"
+        -:    2:
+        -:    3:using namespace std;
+        -:    4:
+    #####:    5:void mostrar_vector(vector<int>& v){
+    #####:    6:    string vector = "[";
+    %%%%%:    6-block  0
+    %%%%%:    6-block  1
+    $$$$$:    6-block  2
+    #####:    7:    if(v.size() > 0){
+    #####:    8:        for(int i=0; i < v.size()-1; i++){
+    %%%%%:    8-block  0
+    %%%%%:    8-block  1
+    #####:    9:            vector = vector + to_string(v[i]) + ", ";
+    %%%%%:    9-block  0
+    %%%%%:    9-block  1
+    %%%%%:    9-block  2
+    %%%%%:    9-block  3
+    $$$$$:    9-block  4
+    $$$$$:    9-block  5
+    $$$$$:    9-block  6
+    $$$$$:    9-block  7
+        -:   10:        }
+        -:   11:    }
+        -:   12:
+    #####:   13:    if(v.size() != 0){
+    %%%%%:   13-block  0
+    #####:   14:        vector = vector + to_string(v[v.size()-1]) + "]";
+    %%%%%:   14-block  0
+    %%%%%:   14-block  1
+    %%%%%:   14-block  2
+    %%%%%:   14-block  3
+    $$$$$:   14-block  4
+    $$$$$:   14-block  5
+    $$$$$:   14-block  6
+    $$$$$:   14-block  7
+        -:   15:    }else{
+    #####:   16:        vector = vector + "]";
+    %%%%%:   16-block  0
+    %%%%%:   16-block  1
+        -:   17:    }
+        -:   18:
+    #####:   19:    cout << vector << endl;
+    %%%%%:   19-block  0
+    %%%%%:   19-block  1
+    #####:   20:}
+        -:   21:
+        1:   22:vector<int> construir_vector(int n, string disposicion){
+        -:   23:
+        1:   24:    vector<int> res;
+        1:   24-block  0
+        1:   25:    srand (time(NULL));
+        -:   26:    int numero;
+        -:   27:
+        1:   28:    if (disposicion == "asc"){
+    #####:   29:        for(int i=0; i < n; i++){
+    %%%%%:   29-block  0
+    %%%%%:   29-block  1
+    %%%%%:   29-block  2
+    #####:   30:            res.push_back(i);
+    %%%%%:   30-block  0
+        -:   31:        }
+        1:   32:    }else if(disposicion == "desc"){
+        1:   32-block  0
+    #####:   33:        for(int i=n-1; i >= 0; i--){
+    %%%%%:   33-block  0
+    %%%%%:   33-block  1
+    %%%%%:   33-block  2
+    #####:   34:            res.push_back(i);
+    %%%%%:   34-block  0
+        -:   35:        }
+        -:   36:
+        1:   37:    }else if(disposicion == "azar"){
+        1:   37-block  0
+       1*:   38:        for(int i=0; i < n; i++){
+        1:   38-block  0
+        1:   38-block  1
+    %%%%%:   38-block  2
+    #####:   39:            numero = rand() % 100;
+    %%%%%:   39-block  0
+    #####:   40:            res.push_back(numero);
+        -:   41:        }
+    #####:   42:    }else if(disposicion == "iguales"){
+    %%%%%:   42-block  0
+    #####:   43:        numero = rand() % 100;
+    %%%%%:   43-block  0
+    #####:   44:        for(int i=0; i < n; i++){
+    %%%%%:   44-block  0
+    %%%%%:   44-block  1
+    #####:   45:            res.push_back(numero);
+    %%%%%:   45-block  0
+        -:   46:        }
+        -:   47:    }else{
+    #####:   48:        cout << "Dispocisión no válida" << endl;
+    %%%%%:   48-block  0
+    %%%%%:   48-block  1
+        -:   49:    }
+        -:   50:
+        2:   51:    return res;
+        1:   51-block  0
+        1:   51-block  1
+        -:   52:}
+        -:   53:
+        1:   54:bool hayDuplicados (vector<int>& v){
+        1:   55:    bool res = false ; int i = 0; int j = 0;
+        1:   55-block  0
+        -:   56:
+       1*:   57:    while ( i < v . size ()){
+        1:   57-block  0
+    #####:   58:        j = 0;
+    %%%%%:   58-block  0
+    #####:   59:        while ( j < v . size ()){
+    %%%%%:   59-block  0
+    #####:   60:            if ( i != j && v [ i ] == v [ j ]){
+    %%%%%:   60-block  0
+    %%%%%:   60-block  1
+    %%%%%:   60-block  2
+    %%%%%:   60-block  3
+    %%%%%:   60-block  4
+    #####:   61:                res = true ;
+    %%%%%:   61-block  0
+        -:   62:            }
+    #####:   63:            j ++;
+    %%%%%:   63-block  0
+        -:   64:        }
+    #####:   65:        i ++;
+    %%%%%:   65-block  0
+        -:   66:    }
+        -:   67:
+        1:   68:    return res;
+        1:   68-block  0
+        -:   69:}
+        -:   70:
+        -:   71:
+    #####:   72:bool busqueda_binaria(vector<int> &s, int x) {
+    #####:   73:    int low = 0;
+    #####:   74:    int high = s.size() -1;
+    %%%%%:   74-block  0
+    #####:   75:    while( low+1 < high ) {
+    %%%%%:   75-block  0
+    %%%%%:   75-block  1
+    #####:   76:        int mid = (low+high) / 2;
+    #####:   77:        if( s[mid] <= x ) {
+    %%%%%:   77-block  0
+    #####:   78:            low = mid;
+    %%%%%:   78-block  0
+        -:   79:        } else {
+    #####:   80:            high = mid;
+    %%%%%:   80-block  0
+        -:   81:        }
+        -:   82:    }
+    #####:   83:    return s[low] == x;
+    %%%%%:   83-block  0
+        -:   84:}
+        -:   85:
+        -:   86:
+        -:   87:
+        -:   88:
+        -:   89:// Dado un vector de enteros, devuelve verdadero si
+        -:   90:// existe un subconjunto tal que la suma sea igual a sum
+    #####:   91:bool algunSubconjSuma(vector<int>& vec, int sum)
+        -:   92:{
+    #####:   93:    return aux(vec, vec.size() - 1, sum);
+    %%%%%:   93-block  0
+        -:   94:}
+        -:   95:
+    #####:   96:bool aux(vector<int>& vec, int i, int sum)
+        -:   97:{
+    #####:   98:    if (sum == 0) return true;
+    %%%%%:   98-block  0
+    %%%%%:   98-block  1
+    #####:   99:    if (i < 0 || sum < 0) return false;
+    %%%%%:   99-block  0
+    %%%%%:   99-block  1
+    %%%%%:   99-block  2
+    #####:  100:    bool prueba1 = aux(vec, i - 1, sum - vec[i]);
+    %%%%%:  100-block  0
+    #####:  101:    bool prueba2 = aux(vec, i - 1, sum);
+    #####:  102:    return prueba1 || prueba2;
+    %%%%%:  102-block  0
+    %%%%%:  102-block  1
+    %%%%%:  102-block  2
+    %%%%%:  102-block  3
+        -:  103:}
+        -:  104:
