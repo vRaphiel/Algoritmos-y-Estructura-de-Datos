@@ -68,22 +68,97 @@ bool hayDuplicados (vector<int>& v){
     return res;
 }
 
-
 bool busqueda_binaria(vector<int> &s, int x) {
     int low = 0;
     int high = s.size() -1;
-    while( low+1 < high ) {
-        int mid = (low+high) / 2;
-        if( s[mid] <= x ) {
-            low = mid;
-        } else {
-            high = mid;
+        while( low+1 < high ) {
+            int mid = (low+high) / 2;
+            if( s[mid] <= x ) {
+                low = mid;
+            } else {
+                high = mid;
+            }
         }
-    }
     return s[low] == x;
 }
 
+bool busqueda_nLogn(vector<int> &s, int x){
+    int i = 0;
+    bool esta = false;
+    bool estaFinal = false;
+    while(i<s.size()){
+        esta = busqueda_binaria(s, x);
+        i++;
+        if(i == s.size()-1 && esta){
+            estaFinal = true;
+        }
+    }
+    return estaFinal;
+}
 
+bool busquedaNCubo(vector<int> &s, int x){
+    bool esta = false;
+    for(int i = 0; i<s.size(); i++){
+        for(int j = 0; j<s.size(); j++){
+            for(int k = 0; k<s.size(); k++){
+                if(s[k]==x){
+                    esta = true;
+                }
+            }
+        }
+    }
+    return esta;
+}
+
+bool busquedaNesima(vector<int> &s, int x){
+    bool esta = false;
+    for(int i = 0; i<s.size(); i++){
+        if(s[i] == x){
+            esta = true;
+        }
+    }
+    return esta;
+}
+
+bool busquedaCien(vector<int> &s, int x){
+    bool esta = false;
+    for(int i = 0; i<100; i++){
+        if(s[i] == x){
+            esta = true;
+        }
+    }
+    return esta;
+}
+
+bool busquedaMil(vector<int> &s, int x){
+    bool esta = false;
+    for(int i = 0; i<1000; i++){
+        if(s[i] == x){
+            esta = true;
+        }
+    }
+    return esta;
+}
+
+bool busquedaDiezMil(vector<int> &s, int x){
+    bool esta = false;
+    for(int i = 0; i<10000; i++){
+        if(s[i] == x){
+            esta = true;
+        }
+    }
+    return esta;
+}
+
+bool busquedaCienMil(vector<int> &s, int x){
+    bool esta = false;
+    for(int i = 0; i<100000; i++){
+        if(s[i] == x){
+            esta = true;
+        }
+    }
+    return esta;
+}
 
 
 // Dado un vector de enteros, devuelve verdadero si

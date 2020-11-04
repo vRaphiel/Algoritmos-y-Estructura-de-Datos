@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_8/ejercicios.h
+/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_8/ejercicios.h
 iostream
 -
 vector
@@ -20,7 +20,7 @@ fstream
 ctime
 -
 
-/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_8/main.cpp
+/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_8/main.cpp
 ejercicios.h
-/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_8/ejercicios.h
+/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_8/ejercicios.h
 
