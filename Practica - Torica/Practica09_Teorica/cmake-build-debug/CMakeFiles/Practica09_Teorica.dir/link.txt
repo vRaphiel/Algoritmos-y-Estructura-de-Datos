@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Practica09_Teorica.dir/main.cpp.o  -o Practica09_Teorica.exe -Wl,--out-implib,libPractica09_Teorica.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
