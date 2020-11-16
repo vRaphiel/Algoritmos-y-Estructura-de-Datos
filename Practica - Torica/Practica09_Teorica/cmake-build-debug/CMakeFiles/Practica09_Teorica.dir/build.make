@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/vAsmad/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/victo/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/vAsmad/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe -E rm -f
+RM = /cygdrive/c/Users/victo/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica"
+CMAKE_SOURCE_DIR = "/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/cmake-build-debug"
+CMAKE_BINARY_DIR = "/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Practica09_Teorica.dir/depend.make
@@ -79,16 +79,16 @@ include CMakeFiles/Practica09_Teorica.dir/flags.make
 
 CMakeFiles/Practica09_Teorica.dir/main.cpp.o: CMakeFiles/Practica09_Teorica.dir/flags.make
 CMakeFiles/Practica09_Teorica.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Practica09_Teorica.dir/main.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practica09_Teorica.dir/main.cpp.o -c "/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Practica09_Teorica.dir/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practica09_Teorica.dir/main.cpp.o -c "/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/main.cpp"
 
 CMakeFiles/Practica09_Teorica.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica09_Teorica.dir/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/main.cpp" > CMakeFiles/Practica09_Teorica.dir/main.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/main.cpp" > CMakeFiles/Practica09_Teorica.dir/main.cpp.i
 
 CMakeFiles/Practica09_Teorica.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica09_Teorica.dir/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/main.cpp" -o CMakeFiles/Practica09_Teorica.dir/main.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/main.cpp" -o CMakeFiles/Practica09_Teorica.dir/main.cpp.s
 
 # Object files for target Practica09_Teorica
 Practica09_Teorica_OBJECTS = \
@@ -100,7 +100,7 @@ Practica09_Teorica_EXTERNAL_OBJECTS =
 Practica09_Teorica.exe: CMakeFiles/Practica09_Teorica.dir/main.cpp.o
 Practica09_Teorica.exe: CMakeFiles/Practica09_Teorica.dir/build.make
 Practica09_Teorica.exe: CMakeFiles/Practica09_Teorica.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Practica09_Teorica.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Practica09_Teorica.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Practica09_Teorica.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +113,6 @@ CMakeFiles/Practica09_Teorica.dir/clean:
 .PHONY : CMakeFiles/Practica09_Teorica.dir/clean
 
 CMakeFiles/Practica09_Teorica.dir/depend:
-	cd "/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica" "/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica" "/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/cmake-build-debug" "/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/cmake-build-debug" "/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/cmake-build-debug/CMakeFiles/Practica09_Teorica.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica" "/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica" "/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/cmake-build-debug" "/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/cmake-build-debug" "/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practica - Torica/Practica09_Teorica/cmake-build-debug/CMakeFiles/Practica09_Teorica.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Practica09_Teorica.dir/depend
 

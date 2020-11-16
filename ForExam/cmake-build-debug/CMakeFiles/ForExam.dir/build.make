@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/vAsmad/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/victo/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/vAsmad/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe -E rm -f
+RM = /cygdrive/c/Users/victo/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ForExam.dir/depend.make
@@ -79,29 +79,29 @@ include CMakeFiles/ForExam.dir/flags.make
 
 CMakeFiles/ForExam.dir/main.cpp.o: CMakeFiles/ForExam.dir/flags.make
 CMakeFiles/ForExam.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ForExam.dir/main.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ForExam.dir/main.cpp.o -c /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ForExam.dir/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ForExam.dir/main.cpp.o -c /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/main.cpp
 
 CMakeFiles/ForExam.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ForExam.dir/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/main.cpp > CMakeFiles/ForExam.dir/main.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/main.cpp > CMakeFiles/ForExam.dir/main.cpp.i
 
 CMakeFiles/ForExam.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ForExam.dir/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/main.cpp -o CMakeFiles/ForExam.dir/main.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/main.cpp -o CMakeFiles/ForExam.dir/main.cpp.s
 
 CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.o: CMakeFiles/ForExam.dir/flags.make
 CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.o: ../ejerciciosParcial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.o -c /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/ejerciciosParcial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.o -c /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/ejerciciosParcial.cpp
 
 CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/ejerciciosParcial.cpp > CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/ejerciciosParcial.cpp > CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.i
 
 CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/ejerciciosParcial.cpp -o CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/ejerciciosParcial.cpp -o CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.s
 
 # Object files for target ForExam
 ForExam_OBJECTS = \
@@ -115,7 +115,7 @@ ForExam.exe: CMakeFiles/ForExam.dir/main.cpp.o
 ForExam.exe: CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.o
 ForExam.exe: CMakeFiles/ForExam.dir/build.make
 ForExam.exe: CMakeFiles/ForExam.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ForExam.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ForExam.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ForExam.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/ForExam.dir/clean:
 .PHONY : CMakeFiles/ForExam.dir/clean
 
 CMakeFiles/ForExam.dir/depend:
-	cd /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/CMakeFiles/ForExam.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/CMakeFiles/ForExam.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ForExam.dir/depend
 

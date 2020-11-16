@@ -31,7 +31,6 @@ vector<string> kPrimeros(vector< pair<string, int>> a, int k){
 }
 
 // Order words
-
 vector<int> contar(string pal){
     vector<int> conteo(25,0);
     for(int i = 0; i<pal.length(); i++){
