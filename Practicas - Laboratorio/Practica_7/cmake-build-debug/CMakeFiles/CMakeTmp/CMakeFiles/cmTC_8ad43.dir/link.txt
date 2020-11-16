@@ -1,0 +1,1 @@
+/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_8ad43.dir/testCXXCompiler.cxx.o  -o cmTC_8ad43.exe -Wl,--out-implib,libcmTC_8ad43.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

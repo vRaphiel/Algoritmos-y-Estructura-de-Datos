@@ -1,27 +1,27 @@
-The C compiler identification could not be found in "/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_8/cmake-build-debug-coverage/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.gcno"
+The C compiler identification could not be found in "/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas - Laboratorio/Practica_8/cmake-build-debug-coverage/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.gcno"
 
-The CXX compiler identification could not be found in "/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_8/cmake-build-debug-coverage/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.gcno"
+The CXX compiler identification could not be found in "/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas - Laboratorio/Practica_8/cmake-build-debug-coverage/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.gcno"
 
 Detecting C compiler ABI info failed to compile with the following output:
-Change Dir: /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_8/cmake-build-debug-coverage/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas - Laboratorio/Practica_8/cmake-build-debug-coverage/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/cygdrive/c/Strawberry/c/bin/gmake.exe cmTC_d714c/fast && C:/Strawberry/c/bin/gmake  -f CMakeFiles/cmTC_d714c.dir/build.make CMakeFiles/cmTC_d714c.dir/build
-gmake[1]: Entering directory 'C:/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_8/cmake-build-debug-coverage/CMakeFiles/CMakeTmp'
-gmake[1]: *** No rule to make target '/cygdrive/c/Users/vAsmad/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/share/cmake-3.17.3/Modules/CMakeCCompilerABI.c', needed by 'CMakeFiles/cmTC_d714c.dir/CMakeCCompilerABI.c.o'.  Stop.
-gmake[1]: Leaving directory 'C:/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_8/cmake-build-debug-coverage/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:141: cmTC_d714c/fast] Error 2
+Run Build Command(s):/cygdrive/c/Strawberry/c/bin/gmake.exe cmTC_5f909/fast && C:/Strawberry/c/bin/gmake  -f CMakeFiles/cmTC_5f909.dir/build.make CMakeFiles/cmTC_5f909.dir/build
+gmake[1]: Entering directory 'C:/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas - Laboratorio/Practica_8/cmake-build-debug-coverage/CMakeFiles/CMakeTmp'
+gmake[1]: *** No rule to make target '/cygdrive/c/Users/vAsmad/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/share/cmake-3.17.3/Modules/CMakeCCompilerABI.c', needed by 'CMakeFiles/cmTC_5f909.dir/CMakeCCompilerABI.c.o'.  Stop.
+gmake[1]: Leaving directory 'C:/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas - Laboratorio/Practica_8/cmake-build-debug-coverage/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_5f909/fast] Error 2
 
 
 
 
 Detecting CXX compiler ABI info failed to compile with the following output:
-Change Dir: /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_8/cmake-build-debug-coverage/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas - Laboratorio/Practica_8/cmake-build-debug-coverage/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/cygdrive/c/Strawberry/c/bin/gmake.exe cmTC_33013/fast && C:/Strawberry/c/bin/gmake  -f CMakeFiles/cmTC_33013.dir/build.make CMakeFiles/cmTC_33013.dir/build
-gmake[1]: Entering directory 'C:/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_8/cmake-build-debug-coverage/CMakeFiles/CMakeTmp'
-gmake[1]: *** No rule to make target '/cygdrive/c/Users/vAsmad/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/share/cmake-3.17.3/Modules/CMakeCXXCompilerABI.cpp', needed by 'CMakeFiles/cmTC_33013.dir/CMakeCXXCompilerABI.cpp.o'.  Stop.
-gmake[1]: Leaving directory 'C:/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_8/cmake-build-debug-coverage/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:141: cmTC_33013/fast] Error 2
+Run Build Command(s):/cygdrive/c/Strawberry/c/bin/gmake.exe cmTC_cddf6/fast && C:/Strawberry/c/bin/gmake  -f CMakeFiles/cmTC_cddf6.dir/build.make CMakeFiles/cmTC_cddf6.dir/build
+gmake[1]: Entering directory 'C:/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas - Laboratorio/Practica_8/cmake-build-debug-coverage/CMakeFiles/CMakeTmp'
+gmake[1]: *** No rule to make target '/cygdrive/c/Users/vAsmad/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/share/cmake-3.17.3/Modules/CMakeCXXCompilerABI.cpp', needed by 'CMakeFiles/cmTC_cddf6.dir/CMakeCXXCompilerABI.cpp.o'.  Stop.
+gmake[1]: Leaving directory 'C:/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas - Laboratorio/Practica_8/cmake-build-debug-coverage/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_cddf6/fast] Error 2
 
 
 

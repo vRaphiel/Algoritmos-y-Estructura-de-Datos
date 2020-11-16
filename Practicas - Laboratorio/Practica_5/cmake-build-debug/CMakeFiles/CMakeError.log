@@ -1,23 +1,23 @@
 Detecting C compiler ABI info failed to compile with the following output:
-Change Dir: /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_5/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas - Laboratorio/Practica_5/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/cygdrive/c/Strawberry/c/bin/gmake.exe cmTC_c7017/fast && C:/Strawberry/c/bin/gmake  -f CMakeFiles/cmTC_c7017.dir/build.make CMakeFiles/cmTC_c7017.dir/build
-gmake[1]: Entering directory 'C:/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_5/cmake-build-debug/CMakeFiles/CMakeTmp'
-gmake[1]: *** No rule to make target '/cygdrive/c/Users/vAsmad/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/share/cmake-3.17.3/Modules/CMakeCCompilerABI.c', needed by 'CMakeFiles/cmTC_c7017.dir/CMakeCCompilerABI.c.o'.  Stop.
-gmake[1]: Leaving directory 'C:/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_5/cmake-build-debug/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:141: cmTC_c7017/fast] Error 2
+Run Build Command(s):/cygdrive/c/Strawberry/c/bin/gmake.exe cmTC_ee5b6/fast && C:/Strawberry/c/bin/gmake  -f CMakeFiles/cmTC_ee5b6.dir/build.make CMakeFiles/cmTC_ee5b6.dir/build
+gmake[1]: Entering directory 'C:/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas - Laboratorio/Practica_5/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** No rule to make target '/cygdrive/c/Users/vAsmad/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/share/cmake-3.17.3/Modules/CMakeCCompilerABI.c', needed by 'CMakeFiles/cmTC_ee5b6.dir/CMakeCCompilerABI.c.o'.  Stop.
+gmake[1]: Leaving directory 'C:/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas - Laboratorio/Practica_5/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_ee5b6/fast] Error 2
 
 
 
 
 Detecting CXX compiler ABI info failed to compile with the following output:
-Change Dir: /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_5/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas - Laboratorio/Practica_5/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/cygdrive/c/Strawberry/c/bin/gmake.exe cmTC_28a4d/fast && C:/Strawberry/c/bin/gmake  -f CMakeFiles/cmTC_28a4d.dir/build.make CMakeFiles/cmTC_28a4d.dir/build
-gmake[1]: Entering directory 'C:/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_5/cmake-build-debug/CMakeFiles/CMakeTmp'
-gmake[1]: *** No rule to make target '/cygdrive/c/Users/vAsmad/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/share/cmake-3.17.3/Modules/CMakeCXXCompilerABI.cpp', needed by 'CMakeFiles/cmTC_28a4d.dir/CMakeCXXCompilerABI.cpp.o'.  Stop.
-gmake[1]: Leaving directory 'C:/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas/Practica_5/cmake-build-debug/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:141: cmTC_28a4d/fast] Error 2
+Run Build Command(s):/cygdrive/c/Strawberry/c/bin/gmake.exe cmTC_387f7/fast && C:/Strawberry/c/bin/gmake  -f CMakeFiles/cmTC_387f7.dir/build.make CMakeFiles/cmTC_387f7.dir/build
+gmake[1]: Entering directory 'C:/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas - Laboratorio/Practica_5/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** No rule to make target '/cygdrive/c/Users/vAsmad/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/share/cmake-3.17.3/Modules/CMakeCXXCompilerABI.cpp', needed by 'CMakeFiles/cmTC_387f7.dir/CMakeCXXCompilerABI.cpp.o'.  Stop.
+gmake[1]: Leaving directory 'C:/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Practicas - Laboratorio/Practica_5/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:141: cmTC_387f7/fast] Error 2
 
 
 
