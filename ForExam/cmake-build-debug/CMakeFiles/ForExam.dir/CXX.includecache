@@ -6,29 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/ejerciciosParcial.cpp
-ejerciciosParcial.h
-/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/ejerciciosParcial.h
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/files/auxiliares.h
+vector
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/files/vector
+iostream
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/files/iostream
 
-/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/ejerciciosParcial.h
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/main.cpp
 iostream
 -
+test.h
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/test.h
 vector
-/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/vector
-tuple
-/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/tuple
-string
-/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/string
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/vector
+files/auxiliares.h
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/files/auxiliares.h
 
-/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/main.cpp
-iostream
--
-vector
-/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/vector
-tuple
-/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/tuple
-string
-/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/string
-ejerciciosParcial.h
-/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/ejerciciosParcial.h
+/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/test.h
 

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/TallerString.dir/main.cpp.o  -o TallerString.exe -Wl,--out-implib,libTallerString.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

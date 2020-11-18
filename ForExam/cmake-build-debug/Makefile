@@ -59,19 +59,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/victo/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/vAsmad/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/victo/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe -E rm -f
+RM = /cygdrive/c/Users/vAsmad/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/victo/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/cygdrive/c/Users/vAsmad/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/victo/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	/cygdrive/c/Users/vAsmad/AppData/Local/JetBrains/CLion2020.2/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/CMakeFiles /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/CMakeFiles /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,32 +143,86 @@ ForExam/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/build
 .PHONY : ForExam/fast
 
-ejerciciosParcial.o: ejerciciosParcial.cpp.o
+files/auxiliares.o: files/auxiliares.cpp.o
 
-.PHONY : ejerciciosParcial.o
+.PHONY : files/auxiliares.o
 
 # target to build an object file
-ejerciciosParcial.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.o
-.PHONY : ejerciciosParcial.cpp.o
+files/auxiliares.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/files/auxiliares.cpp.o
+.PHONY : files/auxiliares.cpp.o
 
-ejerciciosParcial.i: ejerciciosParcial.cpp.i
+files/auxiliares.i: files/auxiliares.cpp.i
 
-.PHONY : ejerciciosParcial.i
+.PHONY : files/auxiliares.i
 
 # target to preprocess a source file
-ejerciciosParcial.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.i
-.PHONY : ejerciciosParcial.cpp.i
+files/auxiliares.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/files/auxiliares.cpp.i
+.PHONY : files/auxiliares.cpp.i
 
-ejerciciosParcial.s: ejerciciosParcial.cpp.s
+files/auxiliares.s: files/auxiliares.cpp.s
 
-.PHONY : ejerciciosParcial.s
+.PHONY : files/auxiliares.s
 
 # target to generate assembly for a file
-ejerciciosParcial.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/ejerciciosParcial.cpp.s
-.PHONY : ejerciciosParcial.cpp.s
+files/auxiliares.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/files/auxiliares.cpp.s
+.PHONY : files/auxiliares.cpp.s
+
+files/ejerciciosParcial.o: files/ejerciciosParcial.cpp.o
+
+.PHONY : files/ejerciciosParcial.o
+
+# target to build an object file
+files/ejerciciosParcial.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/files/ejerciciosParcial.cpp.o
+.PHONY : files/ejerciciosParcial.cpp.o
+
+files/ejerciciosParcial.i: files/ejerciciosParcial.cpp.i
+
+.PHONY : files/ejerciciosParcial.i
+
+# target to preprocess a source file
+files/ejerciciosParcial.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/files/ejerciciosParcial.cpp.i
+.PHONY : files/ejerciciosParcial.cpp.i
+
+files/ejerciciosParcial.s: files/ejerciciosParcial.cpp.s
+
+.PHONY : files/ejerciciosParcial.s
+
+# target to generate assembly for a file
+files/ejerciciosParcial.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/files/ejerciciosParcial.cpp.s
+.PHONY : files/ejerciciosParcial.cpp.s
+
+files/matrices.o: files/matrices.cpp.o
+
+.PHONY : files/matrices.o
+
+# target to build an object file
+files/matrices.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/files/matrices.cpp.o
+.PHONY : files/matrices.cpp.o
+
+files/matrices.i: files/matrices.cpp.i
+
+.PHONY : files/matrices.i
+
+# target to preprocess a source file
+files/matrices.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/files/matrices.cpp.i
+.PHONY : files/matrices.cpp.i
+
+files/matrices.s: files/matrices.cpp.s
+
+.PHONY : files/matrices.s
+
+# target to generate assembly for a file
+files/matrices.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/files/matrices.cpp.s
+.PHONY : files/matrices.cpp.s
 
 main.o: main.cpp.o
 
@@ -197,6 +251,60 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sort/sortAlgorithm.o: sort/sortAlgorithm.cpp.o
+
+.PHONY : sort/sortAlgorithm.o
+
+# target to build an object file
+sort/sortAlgorithm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/sort/sortAlgorithm.cpp.o
+.PHONY : sort/sortAlgorithm.cpp.o
+
+sort/sortAlgorithm.i: sort/sortAlgorithm.cpp.i
+
+.PHONY : sort/sortAlgorithm.i
+
+# target to preprocess a source file
+sort/sortAlgorithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/sort/sortAlgorithm.cpp.i
+.PHONY : sort/sortAlgorithm.cpp.i
+
+sort/sortAlgorithm.s: sort/sortAlgorithm.cpp.s
+
+.PHONY : sort/sortAlgorithm.s
+
+# target to generate assembly for a file
+sort/sortAlgorithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/sort/sortAlgorithm.cpp.s
+.PHONY : sort/sortAlgorithm.cpp.s
+
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForExam.dir/build.make CMakeFiles/ForExam.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -206,12 +314,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ForExam"
-	@echo "... ejerciciosParcial.o"
-	@echo "... ejerciciosParcial.i"
-	@echo "... ejerciciosParcial.s"
+	@echo "... files/auxiliares.o"
+	@echo "... files/auxiliares.i"
+	@echo "... files/auxiliares.s"
+	@echo "... files/ejerciciosParcial.o"
+	@echo "... files/ejerciciosParcial.i"
+	@echo "... files/ejerciciosParcial.s"
+	@echo "... files/matrices.o"
+	@echo "... files/matrices.i"
+	@echo "... files/matrices.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sort/sortAlgorithm.o"
+	@echo "... sort/sortAlgorithm.i"
+	@echo "... sort/sortAlgorithm.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 
