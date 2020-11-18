@@ -18,6 +18,7 @@ string reconstruir(string pal, vector<char> conteo);
 vector<int> contar(string pal);
 bool estaLaPalabra(vector<vector<char>> m, string pal);
 bool contenida(vector<vector<char>> m, string pal, int i, int j);
+bool palabrasIguales(string p1, string p2);
 
 bool distinto(vector<int> lista, int elem);
 vector<int> subSeq(vector<int> s, int desde, int longitud);

@@ -8,112 +8,112 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ForExam">
-				<Option output="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/ForExam.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/ForExam.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 ForExam"/>
-					<CompileFile command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 ForExam"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ForExam/fast">
-				<Option output="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/ForExam.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/ForExam.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 ForExam/fast"/>
-					<CompileFile command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/cygdrive/c/Strawberry/c/bin/gmake.exe -j12 -f &quot;/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 ForExam/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/files/auxiliares.cpp">
+		<Unit filename="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/files/auxiliares.cpp">
 			<Option target="ForExam"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/files/auxiliares.h">
+		<Unit filename="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/files/auxiliares.h">
 			<Option target="ForExam"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/files/ejerciciosParcial.cpp">
+		<Unit filename="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/files/ejerciciosParcial.cpp">
 			<Option target="ForExam"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/files/ejerciciosParcial.h">
+		<Unit filename="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/files/ejerciciosParcial.h">
 			<Option target="ForExam"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/files/matrices.cpp">
+		<Unit filename="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/files/matrices.cpp">
 			<Option target="ForExam"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/files/matrices.h">
+		<Unit filename="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/files/matrices.h">
 			<Option target="ForExam"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/main.cpp">
+		<Unit filename="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/main.cpp">
 			<Option target="ForExam"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/sort/sortAlgorithm.cpp">
+		<Unit filename="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/sort/sortAlgorithm.cpp">
 			<Option target="ForExam"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/sort/sortAlgorithm.h">
+		<Unit filename="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/sort/sortAlgorithm.h">
 			<Option target="ForExam"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/test.cpp">
+		<Unit filename="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/test.cpp">
 			<Option target="ForExam"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/test.h">
+		<Unit filename="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/test.h">
 			<Option target="ForExam"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/ForExam/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

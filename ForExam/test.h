@@ -7,5 +7,7 @@ void caso3();
 void caso4();
 void caso5();
 void caso6();
+void caso7();
+void caso8();
 
 #endif //FOREXAM_TEST_H

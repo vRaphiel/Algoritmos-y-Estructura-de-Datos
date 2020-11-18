@@ -30,6 +30,7 @@ vector<string> kPrimeros(vector< pair<string, int>> a, int k){
     return primeros;
 }
 
+// Palabras Iguales -> Algoritmos con strings
 // Order words
 vector<int> contar(string pal){
     vector<int> conteo(25,0);
@@ -55,6 +56,27 @@ string reconstruir(vector<int> conteo){
 string ordenCasual(string pal){
     vector<int> cota = contar(pal);
     return reconstruir(cota);
+}
+
+
+// Edicion 2
+bool palabrasIguales(string p1, string p2){
+    bool res = false;
+    if(p1.size() == p2.size()){
+        res = true;
+        vector<int> count(26, 0);
+        for(int i = 0; i<p1.size(); i++){
+            count[p1[i] - 'a'] += 1;
+            count[p2[i] - 'a'] += (-1);
+        }
+
+        for(int i = 0; i<count.size(); i++){
+            if(count[i] != 0){
+                res = false;
+            }
+        }
+    }
+    return res;
 }
 
 /* SOPA DE LETRAS */

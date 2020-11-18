@@ -1,5 +1,6 @@
 #include "matrices.h"
 #include "vector"
+#include "iostream"
 
 using namespace std;
 
@@ -138,4 +139,22 @@ bool sonFilasBatidas(vector<vector<int>> M){
         i++;
     }
     return res;
+}
+
+// Recorrer una matriz en un ciclo
+void recorrerEnOnm(vector<vector<int>> m){
+    int i = 0;
+    int j = 0;
+    while(i<m.size() && j < m[0].size()){
+        if(i<m.size()){
+            cout << m[i][j] << endl;
+        }
+        if(j+1 == m[0].size()){
+            j = 0;
+            i++;
+            cout << " ---- " << endl;
+        }else{
+            j++;
+        }
+    }
 }

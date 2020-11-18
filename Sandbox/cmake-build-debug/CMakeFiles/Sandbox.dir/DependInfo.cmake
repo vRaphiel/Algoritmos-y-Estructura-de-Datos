@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Sandbox/main.cpp" "/cygdrive/c/Users/vAsmad/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Sandbox/cmake-build-debug/CMakeFiles/Sandbox.dir/main.cpp.o"
+  "/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Sandbox/main.cpp" "/cygdrive/c/Users/victo/CLionProjects/Algoritmos-y-Estructura-de-Datos-1/Sandbox/cmake-build-debug/CMakeFiles/Sandbox.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
