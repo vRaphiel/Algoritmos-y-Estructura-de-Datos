@@ -1,0 +1,83 @@
+\documentclass[a4paper]{article}
+\usepackage{amsmath}
+\input{Algo1Macros.tex}
+
+\begin{document}
+
+\subsection{Busqueda Lineal}
+
+\begin{proc}{contiene}{in t1 :$\TLista{\ent}$, in x:$\ent$, out result:$\bool$}{}
+    \pre{\True}
+    \post{result = \True \Iff (\exists i:\ent)(0\leq i <|s| \yLuego s[i] = x)}
+\end{proc}
+
+El invatiante del ciclo y la funcion variante:
+
+\begin{equation*}
+    I \equiv 0 \leq i \leq \longitud{s} \yLuego (\forall j :\ent)(0 \leq j < i \implicaLuego s[j] \neq x) \ \ \ \ \     fv = \longitud{s} - i
+\end{equation*}
+
+En c++ la implementacion es 
+
+\begin{lstlisting}
+    bool contiene(vector<int> &s, int x){
+        int i = 0;
+        while( i < s.size() && s[i] != x ){
+            i = i+1;
+        }
+        return i < s.size();
+    }
+\end{lstlisting}
+
+El tamaño de cada secuencia delimitada la cantidad de iteraciones y, tambien, si el elemento esta contenido en la misma \
+Si buscamos que el tiempo de ejecucion sea el maximo, el elemento no debe estar contenido, eso representa el \textbf{peor caso} 
+en tiempo de ejecucion
+El tiempo de ejecucion de la busqueda lineal es de $O(n)$
+
+\subsection{Busqueda Binaria}
+Suponiento que la secuencia esta \textbf{ordenada}
+
+\begin{proc}{contieneOrdenada}{in t1 :$\TLista{\ent}$, in x:$\ent$, out result:$\bool$}{}
+    \pre{ordenado(s)}
+    \post{result = \True \Iff (\exists i:\ent)(0\leq i <|s| \yLuego s[i] = x)}
+\end{proc}
+
+El invatiante del ciclo y la funcion variante:
+
+\begin{equation*}
+    I \equiv 0 \leq i < j < \longitud{s} \yLuego s[i] \leq x < s[j] \ \ \ \ \     fv = j - i - 1
+\end{equation*}
+
+Y la funcion variante
+
+Le implementacion en C++ es
+\begin{lstlisting}[mathescape=true]
+    bool contieneOrdenada(vector<int> &s, int x){
+        if(s.size() == 0){
+            return false;
+        } else if(s.size() == 1){
+            return s[0] = x;
+        } else if(x < s[0]){
+            return false;
+        } else if(x $\geq$ s[s.size() - 1]){
+            return s[s.size()-1] == x;
+        } else {
+            int low = 0;
+            int hight = s.size() -1;
+            while(low + 1 < high){
+                int mid = (low+high) / 2;
+                if(s[mid] $\leq$ x){
+                    low = mid;
+                }else{
+                    high = mid;
+                }
+            }
+            return s[low] = x;
+        }
+    }    
+\end{lstlisting}
+
+La complejidad de la busqueda binaria es $O(log_{2} \longitud{s})$ o $O(log n)$
+
+
+\end{document}

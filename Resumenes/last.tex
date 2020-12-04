@@ -1,0 +1,241 @@
+\documentclass{article}
+\input{Algo1Macros}
+
+\begin{document}
+
+\section{Machete Parcial}
+
+\subsection{Especificacion lista de Partes}
+Dada una secuencia l con todos sus elementos distintos, devolver la secuencia de partes; es decir, la secuencia de todas las secuencias incluidas en l, cada una con sus elementos en el mismo orden en que aparecen en l.
+Características de la entrada:
+\begin{itemize}
+    \item por simpleza, supongamos una secuencia de enteros "l"
+    \item todos sus elementos son distintos (ojo: no necesariamente cumplen un orden)
+\end{itemize}
+Caracerísticas de la salida
+\begin{itemize}
+    \item secuencia de secuencias de enteros "res"
+    \item $\longitud{res}$ = 2$^{\longitud{l}}$ (Recordando algebra 1)
+    \item no hay secuencias repetidas en res
+    \item todos los elementos de res son "sublistas" de l 
+        (importante: "...cada una con sus elementos en el mismo orden en que aparecen en l.")
+\end{itemize}
+¿Qué sería una "sublista" de l?
+Supongamos que se llama r, entonces:
+\begin{itemize}
+    \item  todos los elementos de r están en l
+    \item  r no tiene elementos repetidos
+    \item  los elementos de r se encuentran en el mismo oreden en que aparecen en l
+\end{itemize}
+Ahora sí, especifiquemoslo.
+
+\begin{proc}{partes}{in l:\TLista{\ent}, out res:\bool}{}
+    \pre{ \neg hayRepetidos(l)}
+    \post{ |res|=2^{|l|} \wedge \neg hayRepetidos(res) \wedge todasSublistas(res, l)}
+    \pred{hayRepetidos}{l:\TLista{\ent}}{\\(\exists i,j:\ent)(0\leq i,j < |l| \wedge i \neq j \wedge todasSublistas(res,l))}
+    \pred{todasSublistas}{res:\matriz{\ent}, l:\TLista{\ent}}{\\(\forall r:\TLista{\ent})(r\in res \implica esSublista(r,l))}
+    \pred{esSublista}{r:\TLista{\ent}, l\TLista{\ent}}{\\estaContenida(r,l) \wedge \neq hayRepetidos(r) \wedge respetaOrden(r,l)}
+    \pred{estaContenida}{r:\TLista{\ent}, l:\TLista{\ent}}{\\(\forall x:\ent)(x\in r \implica x \in l)}
+    \pred{respetaOrden}{r:\TLista{\ent}, l:\TLista{\ent}}{\\(\forall i:\ent)(0\leq i < (|r|-1) \implicaLuego estaAntes(r[i], r[i+1], l))}
+    \pred{estaAntes}{a,b:\ent, l:\TLista{\ent}}{\\(\exists i,j:\ent)(0\leq i,j<|l| \yLuego s[i]=a \wedge s[j]=b \wedge i<j)}
+\end{proc}
+
+\pagebreak
+
+\section{Tiempo de ejecucion en peor caso}
+
+\subsection{Ejercicio 2a}
+
+\begin{lstlisting}
+// Si contamos division y resta entonces
+void f(vector<int> &v){             // n = |v|
+    int i = v.size();               // 2
+    while(i >= 0){                  // 1, n/2 ciclos
+        v[v.size()/2 - i] = i;      // 3
+        v[v.size()/2 + i] = i;      // 3
+        i--;                        // 1
+    }                               // t(n) = 1 + 4n
+}
+\end{lstlisting}
+\begin{equation}
+    t(n) = 3 + 4n = O(n)
+\end{equation}
+
+\subsection{Ejercicio 2b}
+
+\begin{lstlisting}
+// Pre: e pertenece a v1
+int f(vector<int> &v1, int e){  // n = |v|
+    int i = 0;                  // 1
+    while(v1[i] != e){          // 1 (Distinccion), itera mientras no coincida,
+                                // busco el peor caso donde recorro todo el vector
+                                // n iteraciones
+        i++                     // 1 (Incremento)
+    }                           // t(n) = 1 + 2n
+    return i;                   
+}
+\end{lstlisting}
+\begin{equation}
+    t(n) = 2 + 2n = O(n)
+\end{equation}
+
+\subsection{Ejercicio 2c}
+
+\begin{lstlisting}
+push_back tiene costo 0(1);
+
+void f(vector<int> &v1, vector<int> &v2){   // n = |v1| m = |v2|
+    vector<int> res();                      // 1
+    for(int i = 0; i<v1.size(); i++){       // 2 (init, guard), n iteraciones
+        res.push_back(v1[i]);               // 1
+    }                                       // t(n) = 2 + 2n
+
+    for(int i = 0; i<v2.size(); i++){       // 2, n iteraciones
+        res.push_back(v2[i]);               // 1
+    }                                       // t(m) = 2 + 2n;
+    return res;                             
+}
+\end{lstlisting}
+\begin{equation}
+    t(n, m) = 5 + 2n + 2m = O(n + m)
+\end{equation}
+
+
+\subsection{Ejercicio 3}    
+Escribir un programa que sea correcto respecto de la especificacion y cuyo 
+tiempo de ejecucion de peor caso pertenezca a O(\longitud{s}) donde s es la secuencia pasada
+como parametro\\ \\
+\begin{proc}{restarLosPares}{in s:\TLista{\ent}, in x:\ent, out res:\TLista{\ent}}{}
+    \pre{\True}
+    \post{|res| = |s| \yLuego (\forall i:\ent)(0\leq i < |s| \implicaLuego \\
+    res[i] = x - \sum_{j=0}^i \IfThenElse{esPar(s[j])}{s[j]}{0})}
+\end{proc}
+
+\begin{lstlisting}
+vector<int> restarLosPares(vector<int> s, int x){   // O(|s|)
+    vector<int> res;                    // 1
+    int i = 0;                          // 1
+    int suma = 0;                       // 1
+    while(i < s.size()){                // 1, |s| iteraciones
+        if(s[i] % 2 == 0){              // 2
+            suma += S[i];               // 1
+        }                               
+        res.push_back(x - suma);        // 2
+        i++;                            
+    }                                   // t(n) = 1 + 6n
+    return res;
+}
+\end{lstlisting}
+\begin{equation}
+    t(n) = 4 + 6n = O(n) -> n = |s| -> O(|s|)
+\end{equation}
+
+\subsection{Ejercicio 4}    
+Una matriz cuadrada se dice triangular si todos los elementos por debajo de las
+diagonal son iguales a 0
+\begin{enumerate}
+    \item Escribir un programa que calcule el determinante de una matriz triangular.
+    Recordar que el determinante de una matriz triangular es el producto de los elementos de su diagonal
+    \item Escribir un programa que determine si una matriz de N + M es o no triangular
+    \item Calcular el tiempo de ejecucion de peor caso de los programas
+    \begin{enumerate}
+        \item en funcion de la cantidad de filas de la matriz
+        \item en funcion de la cantidad de elementos de la matriz
+    \end{enumerate}
+\end{enumerate}
+
+\begin{lstlisting}
+//1. detTriangular
+// Pre: M es matriz cuadrada y es triangular
+// Post res = M[0][0] * M[1][1] * .... * M[n-1][n-1]
+int detTriangular(vector<vector<int>> M){ 
+                            // 3.1 n = |M|          //3.2 n = |M|*|M|
+    int i = 0;              // 1                    // 1
+    int res = 1;            // 1                    // 1
+    while(i < M.size()){    // 1,  n iteraciones    // 1, sqrt(n) iteraciones
+        res = res*M[i][i]   // 2                    // 2
+        i++;                //                      
+    }                       // t(n) = 1 + 3n        // t(n) = 1 + 3*sqrt(n)
+    return res;             // t(n) = 3 + 3n        // t(n) = 3 + 3*sqrt(n)
+}                           // O(n)                 // O(sqrt(n))
+// 2. esTriangular
+\end{lstlisting}
+\begin{equation}
+    Pre: (\forall i:\ent)(0 \leq i < |M| \implicaLuego \longitud{M[i]} = \longitud{M[0]})
+\end{equation}
+\begin{equation}
+        Post: res = true \Iff (\forall i,j:\ent)(0 \leq i < |M| \wedge 0 \leq j < i \implicaLuego \\M[i][j] = 0)
+\end{equation}
+\begin{lstlisting}
+bool esTriangular(vector<vector<int>> M){
+                                            // 3.1 n = |M|          //3.2 n = |M|*|M|
+    bool res = true;                        // 1                    // 1
+    for(int i = 0; i<M.size(); i++){        // 2, n iteraciones     // 2, sqrt(n) iteraciones
+        for(int j = 0; j<i; j++){           // 2, i iteraciones     // 
+            res = res && M[i][j] == 0;      // 3                    // 
+        }                                   // t(i) = 2 + 5i        // 
+        // 3.1 t(n) = 2+sum(i=0,n-1)(2+5i)
+    }                                       
+        // 3.1 t(n) = 4+(2n-2)+5*sum(i=1,n-1)(i)
+        // 3.1 t(n) = 4+(2n-2)+5*(n*(n-1) / 2)
+        // 3.1 t(n) = 5 + (2n-2)+5*(n*(n-1) / 2)
+        // 3.1 t(n) = 3+2n+5(n^2-n)/2
+        // 3.1 O(1) + O(n) + O(n^2) = O(n^2)
+
+        // 3.2 Donde dice n tenemos raiz cuadrada de n, entonces
+        // lo unico que necesitamos hacer es llegar a que en la cuenta final
+        // analizamos reemplazando n^2 por sqrt(n) entonces tenemos que 
+        // 3.2 es O(sqrt^2) -> O(n)
+    return res;
+}
+\end{lstlisting}
+
+\subsection{Ejercicio 5}
+
+\begin{proc}{multiplicar}{in m1:\matriz{\ent}, in m2:\matriz{\ent}, out res:\matriz{\ent}}{}
+    \pre{\dots}
+    \post{|res| = |m1| \yLuego (\forall i:\ent)(0\leq i < |m1| \implicaLuego (|res[i]| = |m2[0]| \yLuego \\
+    (\forall j:\ent)(0 \leq j < |m2[0]| \implicaLuego res[i][j] = \sum_{k=0}^{|m2|-1} m1[i][k]*m2[k][j])))}
+\end{proc}
+
+\begin{enumerate}
+    \item Completar la precondicion del problema
+    \item Escribir un programa que retorne AB
+    \item Determinar el tiempo de ejecucion de peor caso de este programa en fuuncion de 
+    \begin{enumerate}
+        \item la cantidad de filas y columnas de cada matriz
+        \item Suponiendo que N = filas(m1) = filas(m2) = columnas(m1) = columnas(m2)
+    \end{enumerate}
+\end{enumerate}
+
+\begin{lstlisting}
+// 1 . Pre = {esMatriz(m1) && esMatriz(m2) &&L |m1[0]| = |m2|}
+vector<vector<int>> multiplicar(vector<vector<int>> m1, vector<vector<int>> m2){
+                        // n = |m1|, m = |m1[0]| = |m2|, r = |m2|
+    vector<vector<int>> res;                        // 1
+    for(int i = 0; i < m1.size(); i++){             // 2, n iteraciones
+        // fila i de res
+        temp = vector<int>();                       // 1
+        for(int j = 0; j<m2[0].size(); j++){        // 2, m iteraciones
+            // columna j de res
+            int v = 0;                              // 1
+            for(int k = 0; k < m2.size(); k++)      // 2, r iteraciones
+                v += m1[i][k] * m2[k][j];           // 2
+            temp.push_back(v);                      // 1
+        }
+        res.push_back(temp);                        // 1
+    }
+    return res;
+}
+
+// t(r) = 2 + 3r
+// t(m, r) = 4 + m*(2+3r)
+// t(n, m, r) = 2 + n*(4+m*(2+3r))
+// t(n, m, r) = 3 + n*(4+m*(2+3r)) -> 3 + n*(4+2m+3mr) = 3 + 4n + 2mn + 3mnr
+// El termino que domina es mnr -> O(mnr)
+
+// Si asumo que m = n = r entonces tengo O(n*n*n) = O(n^3)
+\end{lstlisting}
+
+\pagebreak
+\end{document}
