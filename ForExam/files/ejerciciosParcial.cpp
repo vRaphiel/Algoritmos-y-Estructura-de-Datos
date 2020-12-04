@@ -58,6 +58,20 @@ string ordenCasual(string pal){
     return reconstruir(cota);
 }
 
+bool palabrasIguales2(string p1, string p2){
+    bool res = true;
+    if(p1.size() == p2.size()){
+        string a = ordenCasual(p1);
+        string b = ordenCasual(p2);
+        if(a != b){
+            res = false;
+        }
+    }else{
+        res = false;
+    }
+    return res;
+}
+
 
 // Edicion 2
 bool palabrasIguales(string p1, string p2){

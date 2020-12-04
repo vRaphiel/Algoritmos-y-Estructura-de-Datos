@@ -13,4 +13,6 @@ add_executable(ForExam main.cpp
         files/auxiliares.h
         files/auxiliares.cpp
         test.h
-        test.cpp)
+        test.cpp
+        complexity/complex.h
+        complexity/complex.cpp)

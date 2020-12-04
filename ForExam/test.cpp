@@ -3,6 +3,7 @@
 #include "sort/sortAlgorithm.h"
 #include "files/auxiliares.h"
 #include "files/matrices.h"
+#include "complexity/complex.h"
 
 void caso1(){
     vector<int> lisa{5, 2, 4, 7, 8, 2, 9, 5};
@@ -72,4 +73,26 @@ void caso8(){
             {1,2,3,4,5,6,7},
             {1,2,3,4,5,6,7}};
     recorrerEnOnm(matrix);
+}
+
+void caso9Complex(){
+    vector<int> v = {1, 2, 3, 4, 5, 6};
+    double t0 = clock();
+    int indice = indiceUltimaAparicion(v, 1);
+    double t1 = clock();
+    double tiempo = (double(t1-t0)/CLOCKS_PER_SEC);
+    int n = 0; int hasta = 10000000; int paso = 1000000;
+    ofstream fout;
+    fout.open("datos.csv");
+    fout << "n\t" << "tiempo" <<endl;
+    while(n < hasta){
+        vector<int> v = construir_vector(n, "asc");
+        double t0=clock();
+        int indice = indiceUltimaAparicion(v, 1);
+        double t1 = clock();
+        tiempo = (double(t1-t0)/CLOCKS_PER_SEC);
+        fout << n << "\t" << tiempo << endl;
+        n +=paso;
+    }
+    fout.close();
 }

@@ -29,7 +29,28 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e25266e9-c6d1-4288-ba4c-e4be8a46c8d2" name="Default Changelist" comment="" />
+    <list default="true" id="e25266e9-c6d1-4288-ba4c-e4be8a46c8d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/ForExam.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/ForExam.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/ForExam.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/ForExam.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/ForExam.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/ForExam.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/ForExam.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/ForExam.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/ForExam.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/ForExam.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../ForExam/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ForExam/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ForExam/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,11 +90,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,6 +101,7 @@
       <updated>1604516473231</updated>
       <workItem from="1604516475302" duration="2846000" />
       <workItem from="1605552764792" duration="17000" />
+      <workItem from="1605727293455" duration="14000" />
     </task>
     <servers />
   </component>
@@ -101,6 +118,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1604519327452">
